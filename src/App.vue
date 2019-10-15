@@ -14,14 +14,15 @@
           <i class="m-2 fab fa-youtube fa-lg text-danger" ></i>
         </a>
     </div>
-    <Menu/>
+    <Store/>
+    <!--Menu/>
     <Slider/>
     <MainBody/>
     <MenWomen/>
     <JoinUs/>
     <BmEvents/>
     <ContactBM/>
-    <Footer/>
+    <Footer/-->
     <!--img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/-->
 
@@ -43,6 +44,7 @@ import { mdbIcon } from 'mdbvue';
 import BmEvents from "@/components/BmEvents";
 import ContactBM from "@/components/ContactBM";
 import Footer from "@/components/Footer";
+import Store from "@/components/Store";
 
 export default {
   name: 'app',
@@ -55,7 +57,8 @@ export default {
     JoinUs,
     MenWomen,
     ContactBM,
-    Footer
+    Footer,
+      Store
   }
 }
 </script>
