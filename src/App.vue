@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="container-fluid">
-    <div class="text-center bg-warning p-1">
+    <!--div class="text-center bg-warning p-1">
         <a href="#">
           <i class="m-2 fab fa-twitter fa-lg text-danger" ></i>
         </a>
@@ -13,9 +13,9 @@
         <a href="#">
           <i class="m-2 fab fa-youtube fa-lg text-danger" ></i>
         </a>
-    </div>
-    <Store/>
-    <!--Menu/>
+    </div-->
+    <!--Store/>
+    <Menu/>
     <Slider/>
     <MainBody/>
     <MenWomen/>
@@ -25,6 +25,7 @@
     <Footer/-->
     <!--img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/-->
+      <Dashboard/>
 
   </div>
 </template>
@@ -45,6 +46,8 @@ import BmEvents from "@/components/BmEvents";
 import ContactBM from "@/components/ContactBM";
 import Footer from "@/components/Footer";
 import Store from "@/components/Store";
+import ProductsBM from "@/components/ProductsBM";
+import Dashboard from "@/components/Dashboard";
 
 export default {
   name: 'app',
@@ -58,7 +61,9 @@ export default {
     MenWomen,
     ContactBM,
     Footer,
-      Store
+    Store,
+    ProductsBM,
+    Dashboard
   }
 }
 </script>
@@ -71,7 +76,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;*/
-  background-color: black;
+  margin-top: 60px;
+  background-color: black;*/
 }
 </style>

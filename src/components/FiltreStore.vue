@@ -10,7 +10,7 @@
                         <div class="custom-control custom-switch text-center text-white">
                         <span>
                             <input type="checkbox" class="custom-control-input" id="customSwitch0" v-model="all_products">
-                            <label class="custom-control-label mx-5" for="customSwitch0"> Men <b>(Checked: {{ all_products }})</b></label>
+                            <label class="custom-control-label mx-5" for="customSwitch0"> <All></All> <b>(Checked: {{ all_products }})</b></label>
                         </span>
 
                             <span>
@@ -20,12 +20,12 @@
 
                             <span>
                             <input type="checkbox" class="custom-control-input" id="customSwitch2" v-model="women">
-                            <label class="custom-control-label mx-5" for="customSwitch2"> 000 <b>(Checked: {{ women }})</b></label>
+                            <label class="custom-control-label mx-5" for="customSwitch2"> Women <b>(Checked: {{ women }})</b></label>
                         </span>
 
                             <span>
                             <input type="checkbox" class="custom-control-input" id="customSwitch3" v-model="men">
-                            <label class="custom-control-label mx-5" for="customSwitch3"> 000 <b>(Checked: {{ men }})</b></label>
+                            <label class="custom-control-label mx-5" for="customSwitch3"> Protein <b>(Checked: {{ men }})</b></label>
                         </span>
 
                         </div>
